@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#24303c;
+    font-family: 'calibri';
+}
+
+.registro {
+    width: 400px;
+    background: white;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color:black;
+    box-shadow: 7px 13px 37px #000;
+}
+.registro h4 {
+    background-color: white ;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.campos {
+    width: 100%;
+    background: rgb(246, 243, 236);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #183471;
+    font-size: 18px;
+}
+.registro .buttons{
+    width: 100%;
+    background:#183471;
+    border: white;
+    border-radius: 4px;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+.registro p{
+    background-color: white;
+    font-size: 19px;
+    margin-left: 6px;
+}
+.politica{
+    background-color: white;
+    font-size: 17px;
+    margin-left: 6px;
+    
+}
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: rgb(246, 243, 236);
+    font-size: 17px;
+    margin-left: 4px;
+   
+}
+option{
+    background-color:  rgb(246, 243, 236);
+}
+
+.modulos{
+    background-color: white;
+    font-size: 17px;
+    margin-left: 4px;
+    background-image: url(checkbox-check.png); /*para que se muestre el check*/
+}
+table{
+    margin:20px;
+    border:none;
+    background-color: white;
+}
+td{
+    align-items: center;
+    background-color: white;
+    padding: 6px; 
+}
+tr{
+    border:none;
+}
+
+
+
+
+
+
+
+  
+  

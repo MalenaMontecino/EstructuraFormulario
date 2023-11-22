@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang = "en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario alta Politecnics</title>
+        <link rel="stylesheet" href="CSS/CSSformulario.css">
+    </head>
+    <body>
+        <section class = "registro">
+            <h4>Registro - Centre d'Estudis Politècnics </h4>
+
+            <input class="campos" type="text" name="nombres" id="nombres" placeholder="Nombre">
+            <input class="campos" type="text" name="apellidos" id="apellidos" placeholder="Apellidos  (máx. 25 caracteres)" 
+             required minlength="1" maxlength="25">
+            <input class="campos" type="email" name="correo" id="correo" placeholder="Correo electrónico">
+            <input class="campos" type="date" name="fechaNacimiento" id="fechaNacimiento" placeholder="Ingresa tu fecha de nacimiento">
+           
+           <P>CURSO</P>
+    
+                <select name="curso" id="curso">
+                  <option value="SMIX1A">SMIX1A</option>
+                  <option value="SMIX1A">SMIX1A</option>
+                  <option value="DAW1A">DAW1A</option>
+                  <option value="DAW2A">DAW2A</option>
+                  <option value="DAM1A">DAM1A</option>
+                  <option value="DAM2A">DAM2A</option>
+                </select>
+           
+
+            <p> Matrícula de los siguientes módulos </p>
+           <table>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="modul1" name="M01" value="M01">
+                        <label class="modulos" for="modul1">M01</label><br>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="modul2" name="M02" value="M02">
+                        <label class="modulos" for="modul2">M02</label><br>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="modul3" name="M03" value="M03">
+                        <label class="modulos" for="modul3">M03</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="modul4" name="M04" value="M04">
+                        <label class="modulos" for="modul4">M04</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="modul5" name="M05" value="M05">
+                        <label class="modulos" for="modul5">M05</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="modul6" name="M06" value="M06">
+                         <label class="modulos" for="modul6">M06</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="modul7" name="M07" value="M07">
+                        <label class="modulos" for="modul7">M07</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="modul8" name="M08" value="M08">
+                         <label class="modulos" for="modul8">M08</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" id="modul9" name="M09" value="M09">
+                        <label class="modulos" for="modul9">M09</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="modul10" name="M10" value="M10">
+                        <label class="modulos" for="modul10">M10</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="modul11" name="M11" value="M11">
+                         <label class="modulos" for="modul11">M11</label>
+                    </td>
+                </tr>
+           </table>
+            
+                              
+          
+            <input class="campos" type="number" name="notaMedia" id="notaMedia" placeholder="Nota media estudios"
+            required min="5" max="10">
+
+
+            
+            <input class = "buttons" type="submit" value="Registrar">    
+
+            <input  type="radio" id="aceptaPolitica" name="aceptaPolitica" value="Acepto la política"> 
+            <label class ="politica" for="aceptaPolitica">  Acepto la Política de Privacidad </label><br>
+
+            
+               
+        </section>
+    </body>
+    
+
+
+
+</html>
+
